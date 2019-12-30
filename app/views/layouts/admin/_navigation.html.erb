@@ -1,0 +1,30 @@
+<style type="text/css">
+  .image-responsive {
+    border-radius: 50%;
+  }
+</style>
+<nav class="navbar-default navbar-static-side" role="navigation">
+  <div class="sidebar-collapse">
+    <ul class="nav metismenu" id="side-menu">
+      <li class="nav-header">
+        <center>
+          <div class="dropdown profile-element">
+            <span>
+              <img alt="image" class="image-responsive" src="/assets/a4.jpg" height="100px;">
+            </span>
+            <!-- <span class="clear"> -->
+            <span class="block m-t-xs">
+              <strong class="font-bold " style="color: white;"></strong>
+            </span>
+          </div>
+        </center>
+      </li>
+      <li class="<%#=is_active_action('index')%>">
+        <a href="<%=blog_list_path%>">
+          <i class="fa fa-th-large"></i>
+          <span class="nav-label">Blog</span></a>
+      </li>
+     
+    </ul>
+  </div>
+</nav>
